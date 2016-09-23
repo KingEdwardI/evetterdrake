@@ -7,8 +7,16 @@ div.transparent {
 }
 div.picture {
   overflow-y: hidden;
-  height: 400px;
-  width: 100%;
+  height: auto;
+  max-height: 400px;
+  width: auto;
+  max-width: 100%;
+}
+div.picture > img {
+  height: auto;
+  max-height: 400px;
+  width: auto;
+  max-width: 100%;
 }
 div.about {
   color: #222;
