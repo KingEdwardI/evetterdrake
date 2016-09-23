@@ -1,0 +1,94 @@
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title About Me | Edward Vetter-Drake
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous")
+    link(rel="stylesheet" type="text/css" href="./css/sidebar.css")
+    link(rel="stylesheet" type="text/css" href="./css/aboutme.css")
+    link(href="./img/favicon.gif" rel="icon" type="image/x-icon")
+  body
+    //- ### BEGIN Navbar ###
+    //- Brand and toggle get grouped for better mobile display
+    nav.navbar.navbar-inverse.sidebar(role="navigation")
+      div.container-fluid
+        div.navbar-header
+          button.navbar-toggle(type="button" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1")
+            span.sr-only Toggle Navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href="./index.html") Home
+        //- Collect the nav links, forms, and other content for toggling
+        div.collapse.navbar-collapse#bs-sidebar-navbar-collapse-1
+          ul.nav.navbar-nav
+            li
+              a(href="./aboutme.html") About Me&nbsp;
+                span.glyphicon.glyphicon-user.pull-right.hidden-xs.showopacity.navicon
+            li
+              a(href="./projects.html") Projects&nbsp; 
+                span.glyphicon.glyphicon-th-list.pull-right.hidden-xs.showopacity.navicon
+            li
+              a(href="./pdf/EdwardVetter-DrakeWebDeveloper.pdf") Resume&nbsp; 
+                span.glyphicon.glyphicon-file.pull-right.hidden-xs.showopacity.navicon
+            li.dropdown
+              a.dropdown-toggle(href="#" data-toggle="dropdown") Contact&nbsp; 
+                span.caret
+                span.navicon.pull-right.hidden-xs.glyphicon.glyphicon-console
+                  ul.dropdown-menu.forAnimate(role="menu")
+                    li
+                      a(href="mailto:edward.vetterdrake@gmail.com")
+                        img(src="./img/gmail_logo.ico" alt="Gmail Logo").contacticon
+                        |&nbsp;edward.vetterdrake@gmail.com
+
+                    li
+                      a(href="http://github.com/KingEdwardI") 
+                        img(src="./img/github_logo.png" alt="Github Logo").contacticon
+                        |&nbsp;KingEdwardI
+
+                    li
+                      a(href="http://twitter.com/edvetterdrake") 
+                        img(src="./img/twitter_logo.png" alt="Twitter Logo").contacticon
+                        |&nbsp;@edvetterdrake
+                    li
+                      a(href="http://evetterdrake.wordpress.com") 
+                        img(src="./img/wordpress_logo.png" alt="Wordpress Logo").contacticon
+                        |&nbsp;Ed-Tech
+                    //- li
+                      a(href="http://moviereviewsimho.wordpress.com") 
+                        img(src="./img/wordpresslogo.png" alt="Wordpress Logo").contacticon
+                        |&nbsp;Movie Reviews IMHO
+            li.dropdown
+              a.dropdown-toggle(href="#" data-toggle="dropdown") CodeCraft&nbsp; 
+                span.caret
+                span.navicon.pull-right.hidden-xs.glyphicon.glyphicon-grain
+                  ul.dropdown-menu.forAnimate(role="menu")
+                    li
+                      a(href="https://www.codecraftschool.com/")
+                        img(src="./img/codecraft_school_logo.png" height="30" width="125" alt="CodeCraft School Logo")
+                    li
+                      a(href="https://www.codecraftschool.com/september-2016-graduates/<Paste>")
+                        |CodeCraft Blog
+ 
+
+    div.main
+      div.about
+        div.picture
+          img(src="./img/codecraft_class.jpg" alt="CodeCraft Class July 2016")
+        div.panel.panel-default.col-md-8.col-md-offset-2.transparent.aboutme
+          div.panel-body.
+            I'm 21 years old, living in Boulder, CO. I enjoy programming, writing blogs, and watching movies. I live in the code, spending as much time as possible trying to work things out. I leave my computer on so it's always available for me to log into from my phone if I come up with any ideas while on the go. 
+            <br><br>
+            I am a graduate of CodeCraft School of Technology, a web development boot camp. Pictured above is my class I am at the far right. There, I graduated with a certificate in Full Stack web development, MEAN stack. I completed my final project in Angular2.
+            <br><br>
+            I spend my free time watching movies to blog about, messing with various Linux systems, and writing programs to make my life easier. I like all types of movies and music, and am always looking for new things to watch and listen to.
+      div.panel.panel-default.col-md-8.col-md-offset-2.transparent
+        div.panel-body.
+          For my final project at CodeCraft, I built a music discovery site using Angular2 RC5. It's explained in detail in this video.
+      div.embed-responsive.embed-responsive-16by9.video
+        <iframe src="https://www.youtube.com/embed/7EETforxzoE" frameborder="0" allowfullscreen></iframe>
+
+
+    script(src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous")

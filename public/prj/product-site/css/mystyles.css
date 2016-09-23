@@ -1,0 +1,151 @@
+/* Fonts */
+@font-face {
+    font-family: "finalf";
+    src: url("../fonts/finalf.woff2");
+    }
+.finalf {
+    font-family: "finalf"}
+/* Begin Navbar */
+ul.nav li{
+    padding: 2px 0px;
+    border-right: 1px solid grey;
+    }
+ul.nav.navbar-nav {
+    width: auto;
+    white-space: nowrap;}
+nav div .container {
+    display: inline-block;}
+.navbar {
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    background-image: url("../img/blue-laser3.jpeg");
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    .navbar-right{
+        display: inline-table;
+        }
+    }
+#navbar {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.navleft {
+    border-left: 1px solid grey;
+    }
+    .navbar-brand {
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    }
+.navbar-brand img {
+    max-width: 100%;
+    max-height: 100%;
+    }
+/* End Navbar */
+
+/* Adjustment for Navbar */
+body {
+    margin-top: 54px;}
+
+/* Begin Top Carousel */
+div#myCarousel {
+    background-image: url("../img/lights.jpeg");
+    }
+
+div.slides {
+    height 400px;
+    }
+div.carousel .slides img{
+    width: 80%;
+    vertical-align: center;
+    margin: 0 auto;
+    min-height: 400px;
+    max-height: 400px;
+    opacity: 0.95;
+    }
+.carousel-control.top{
+    height: 50%;
+    width: 75px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+/* End Carousel */
+
+/* Games Info */
+section div.jumbotron {
+    margin-bottom: 0;
+    height: 500px;
+    text-align: center;
+    color: white;
+    background-image: url("../img/ffaction5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    text-shadow: 2px 2px black;
+}
+/* /Games Info */
+
+/* Begin Games Title Bar */
+div.shop-head {
+    background-image: url("../img/broken-crystals.jpg");
+    height: 175px;
+    width: 100%;
+    padding: 25px 0;
+    }
+div.shop-title{
+    background-color: transparent;
+    height: 102px;
+    width: 100%;
+    vertical-align: middle;
+    }
+div.shop-bar img{
+    margin: 0 auto;
+    display: block;
+    }
+div.shop-title h1{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    }
+/* End Games Title Bar */
+
+/* Begin Games Carousel */
+div.container{
+    width: 100%;
+    color: white;
+    text-shadow: 1px 1px grey;
+    }
+.col-md-3{
+    max-width: 100%;}
+div.well{
+   background-image: url("../img/lights.jpeg");
+   border: 0;
+   margin-bottom: 0;
+    }
+.foot{
+    background-color: black;
+    color: white;
+    }
+.col-md-6 img {
+    width: 500px;
+    height: 220px;
+    opacity: 0.95;
+    }
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+.onebyone-carosel .active.left { left: -33.33%; }
+.onebyone-carosel .active.right { left: 33.33%; }
+.onebyone-carosel .next { left: 33.33%; }
+.onebyone-carosel .prev { left: -33.33%; }
+
+a.carousel-control.bottom{
+    width: 100px;
+    }
+/* End Games Carousel */
+
+.container.foot {
+    font-weight: 300;
+    background-color: black;
+    }
+
+

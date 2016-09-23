@@ -1,0 +1,113 @@
+body{
+    background-image: url(../img/matrix.jpg);
+    background-size: cover;
+    padding-top: 0;
+    margin-top: 0;
+}
+.body {
+    background-image: url(../img/boom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+}
+#thisthing{
+    margin-top: 0;
+    border-bottom: none;
+    border-bottom: none;
+}
+.page-header h1{
+    margin-top: 0;
+}
+.page-header{
+    border-bottom: none;
+    margin-top: 0;
+    height: 80px;
+    text-align: center;
+    background-image: url(../img/cropped-moneymatrix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.spinners{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(../img/Money-Matrix.jpg);
+    background-size: cover;
+}
+.spinnercase{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.spinnercase div{
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+.input{
+    height: 50px;
+    width: 60%;
+    margin: 0 auto;
+}
+.inputcase {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.inputcase input{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+#gobutton{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+}
+.messagecase{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 14pt;
+}
+#message{
+   height:30px;
+   text-align: center;
+   color: white;
+   text-shadow: 2px 2px black;
+   width: 60%;
+   display: inline-block;
+}
+.display{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+#money{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+    text-weight: 900;
+    text-shadow: 2px 2px black;
+    font-size: 20pt;
+    color: white;
+    background-image: url('../img/matrixbling.jpeg');
+}
