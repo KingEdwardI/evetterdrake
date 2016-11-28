@@ -18,8 +18,10 @@ app.get('/projects', (req, res) => {
   res.sendFile(__dirname + '/public/projects.html');
 });
 
+app.use(express.static('public'));
+app.use(express.static('/programs'));
+
 app.use('/programs', serveIndex(__dirname + '/programs/', {'icons': true}));
-app.use(express.static("public"));
 
 app.listen(PORT, () => {
   console.log('listening on port:' + PORT);
