@@ -18,8 +18,12 @@ app.get('/projects', (req, res) => {
   res.sendFile(__dirname + '/public/projects.html');
 });
 
+app.get('/programs/:program', (req,res) => {
+  res.sendFile(__dirname + req.originalUrl);
+});
+
 app.use(express.static('public'));
-app.use(express.static('/programs'));
+app.use(express.static(__dirname + '/programs/'));
 
 app.use('/programs', serveIndex(__dirname + '/programs/', {'icons': true}));
 
