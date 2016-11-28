@@ -4,7 +4,7 @@ const serveIndex = require('serve-index');
 const requireDir = require('require-dir');
 const dir = requireDir('./programs', {recurse: true});
 
-const PORT = process.env.port || 7200
+const PORT = process.env.port || 8000
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/public/index.html');
