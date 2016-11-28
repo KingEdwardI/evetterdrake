@@ -1,5 +1,8 @@
 const express = require('express');
 const app = express();
+const serveIndex = require('serve-index');
+const requireDir = require('require-dir');
+const dir = requireDir('./programs', {recurse: true});
 
 const PORT = process.env.port || 7200
 
@@ -15,6 +18,7 @@ app.get('/projects', (req, res) => {
   res.sendFile(__dirname + '/public/projects.html');
 });
 
+app.use('/programs', serveIndex(__dirname + '/programs/', {'icons': true}));
 app.use(express.static("public"));
 
 app.listen(PORT, () => {
