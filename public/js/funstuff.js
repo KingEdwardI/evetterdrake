@@ -1,16 +1,16 @@
 window.addEventListener('devtoolschange', function (e) {
 
   if(e.detail.orientation == "horizontal") {
-  console.log('%c##########    %c####         ####    %c###########', 'color: #0054E5','','');
-  console.log('%c##########    %c####         ####    %c############', 'color: #014EE5','','');
-  console.log('%c####          %c ####       ####     %c####     ####', 'color: #0249E5','','');
-  console.log('%c####          %c ####       ####     %c####      ####', 'color: #0344E6','','');
-  console.log('%c##########    %c  ####     ####      %c####       ####', 'color: #043FE6','','');
-  console.log('%c##########    %c  ####     ####      %c####       ####', 'color: #063AE7','','');
-  console.log('%c####          %c   ####   ####       %c####      ####', 'color: #0735E7','','');
+  console.log('%c##########    %c####         ####    %c###########', 'color: #0088E5','','');
+  console.log('%c##########    %c####         ####    %c############', 'color: #017DE5','','');
+  console.log('%c####          %c ####       ####     %c####     ####', 'color: #0273E5','','');
+  console.log('%c####          %c ####       ####     %c####      ####', 'color: #0369E6','','');
+  console.log('%c##########    %c  ####     ####      %c####       ####', 'color: #045EE6','','');
+  console.log('%c##########    %c  ####     ####      %c####       ####', 'color: #0654E7','','');
+  console.log('%c####          %c   ####   ####       %c####      ####', 'color: #074AE7','','');
   console.log('%c####          %c   ####   ####       %c####     ####', 'color: #0830E7','','');
-  console.log('%c##########    %c    #########        %c############', 'color: #092BE8','','');
-  console.log('%c##########    %c     #######         %c###########', 'color: #0A26E8','','');
+  console.log('%c##########    %c    #########        %c############', 'color: #0A26E8','','');
+  console.log('%c##########    %c     #######         %c###########', 'color: #0C21E9','','');
   console.log('');
   }
 
