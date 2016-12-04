@@ -1,6 +1,6 @@
 window.addEventListener('devtoolschange', function (e) {
 
-  if(e.detail.orientation == "Horizontal") {
+  if(e.detail.orientation == "horizontal") {
   console.log('##########    ####         ####    ###########');
   console.log('##########    ####         ####    ############');
   console.log('####           ####       ####     ####     ####');
