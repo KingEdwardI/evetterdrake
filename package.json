@@ -7,6 +7,7 @@
     "animate.css": "^3.5.2",
     "body-parser": "^1.15.2",
     "del": "^2.2.2",
+    "devtools-detect": "^2.1.1",
     "express": "^4.14.0",
     "express-session": "^1.14.1",
     "gulp": "^3.9.1",
