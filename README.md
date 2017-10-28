@@ -38,9 +38,9 @@ function hasTypeOfPlanets(galaxy, planetType) {
   }
   return false; // only return false once you've completed checking every planet in the galaxy 
 }
-hasTypeOfPlanets(Andromeda, /HAB/g); // true
-hasTypeOfPlanets(Messeir_81, /HAB/g); // false
-hasTypeOfPlanets(Triangulum_Galaxy, /HAB/g); // true
+hasTypeOfPlanets(Andromeda, 'HAB'); // true
+hasTypeOfPlanets(Messeir_81, 'HAB'); // false
+hasTypeOfPlanets(Triangulum_Galaxy, 'HAB'); // true
 ```
 
 > when to not stop execution of a loop
