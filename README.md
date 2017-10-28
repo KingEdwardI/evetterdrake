@@ -32,7 +32,8 @@ You've been tasked to find out which galaxies even contain habititable planets a
 function hasTypeOfPlanets(galaxy, planetType) {
   for (var i = 0; i < galaxy.length; i++) { // loop over the entire galaxy
     if (galaxy[i].match(planetType)) { // if any given planet regex matches the planetType
-      return true; // return true from the function, stopping the loop and function because we now know that the galaxy has that type of planet
+      return true; // return true from the function, stopping the loop and function 
+                   // because we now know that the galaxy has that type of planet
     }
   }
   return false; // only return false once you've completed checking every planet in the galaxy 
@@ -81,7 +82,8 @@ function setZoneSafe() {
       return zones[i+1].name; // and return our next zone
     }
   }
-  return "All Zones Safe!" // once all zones have been set to safe, the for loop will finish, and we'll know that the colony is safe.
+  return "All Zones Safe!" // once all zones have been set to safe, the for loop
+                           // will finish, and we'll know that the colony is safe.
 }
 ```
 
