@@ -52,7 +52,8 @@ Now we've narrowed down our planet search by a lot, there's a lot of galaxies ou
 function planetsNotInvaded(galaxy) {
   let notInvaded = []; // a place to store all matched planets
   for (var j = 0; j < strArray.length; j++) {
-    if (galaxy[j].match('HAB') && !galaxy[j].match('XX')) { // if the current planet is habitable, and not invaded
+    // if the current planet is habitable, and not invaded
+    if (galaxy[j].match('HAB') && !galaxy[j].match('XX')) {
       found.push(strArray[j]); // record the current planet
     }
   }
