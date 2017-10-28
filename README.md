@@ -3,8 +3,11 @@ When getting started with programming, sometimes it can be very hard to understa
 I'll begin with a short definition of terms:
 
 `stop execution` - general term to describe stopping a function, for loop, block of code, etc. 
+
 `return` - used when stopping execution of a function, will provide the value following the return statement to the location where the function was called.
+
 `break` - stop execution of a for loop, stopping all iterations, and continuing on after the loop.
+
 `continue` - stop execution of the current iteration of the loop, begin on the next iteration. 
 
 The Earth is at the edge of it's existence, the Sun will triple in size billions of years before we thought it would! You are the scientist in charge of finding us a new planet, in a new galaxy. Over the years other researchers have compiled lists of galaxies, and details about the planets, which you now have access to. So far, you've been able to compile lists of all galaxies, and whether or not they are inhabitable, however the only way thay we can tell that they are inhabitable or not is through the name of the planet. These planets have a very specific naming schema, so they can be easily parsed by javascript (which for some reason has become the language of the future).  
